@@ -12,7 +12,7 @@ This project focuses on detecting traffic signs and vehicles using a YOLOv8 mode
 
 The model was trained using the YOLOv8 framework on a custom dataset. The dataset was split into training, validation, and test sets. The training process involved 100 epochs with a batch size of 16 and an image size of 640x640.
 
-### Training Metrics
+## Training Metrics
 
 - **Training Results**: The following image represents the training progress, including loss, accuracy, and other key metrics.
 
@@ -22,15 +22,15 @@ The model was trained using the YOLOv8 framework on a custom dataset. The datase
 
 ![Confusion Matrix](Results/confusion_matrix_normalized.png)
 
-### Test Results
+## Test Results
 
-#### Images
+### Images
 
 The model was tested on several images from the test dataset. Below are some examples showing the detection results.
 
 ![Test Results on Images](Results/test_images_results.png)
 
-#### Videos
+### Videos
 
 The model was also tested on videos. Below are some side-by-side comparisons of the original video and the processed video with detection results.
 
